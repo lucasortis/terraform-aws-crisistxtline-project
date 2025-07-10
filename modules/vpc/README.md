@@ -47,24 +47,6 @@ module "vpc" {
 }
 ```
 
-### With Existing VPC
-
-```hcl
-module "vpc" {
-  source = "./modules/vpc"
-  
-  environment  = "prod"
-  project_name = "MyProject"
-  cidr_block   = "10.0.0.0/16"
-  create_vpc   = false  # Use existing VPC
-  
-  tags = {
-    Environment = "prod"
-    Project     = "MyProject"
-  }
-}
-```
-
 ## Variables
 
 | Name | Description | Type | Default | Required |

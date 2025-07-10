@@ -226,7 +226,7 @@ pre-commit install
 The following modules need to be implemented to complete the secure, highly available, and scalable web application infrastructure:
 
 ### 🔒 Security Group Module (`modules/security-group/`)
-**Priority: High** - Required for secure network isolation
+Required for secure network isolation
 - [ ] ALB security group (HTTP/HTTPS from internet: 0.0.0.0/0:80,443)
 - [ ] ECS service security group (HTTP from ALB only: ALB-SG:8000)
 - [ ] NAT Gateway security group (HTTPS outbound for ECS tasks)

@@ -196,7 +196,9 @@ use_lockfile = true
 └── modules/                   # Reusable Terraform modules
     ├── vpc/                   # VPC infrastructure
     ├── security-group/        # Security group rules
+    ├── alb/                   # Application Load Balancer
     ├── ecs/                   # Container orchestration
+    ├── iam/                   # IAM roles and policies
     └── cloudwatch/            # Monitoring and logging
 ```
 

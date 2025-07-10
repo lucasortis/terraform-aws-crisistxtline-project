@@ -1,4 +1,4 @@
-# Crisis Text Line - Terraform Infrastructure
+# Crisis Text Line Assessment - Terraform Infrastructure
 
 *This README was created using Claude Sonnet 4 through GitHub Copilot and fully revised by me.*
 

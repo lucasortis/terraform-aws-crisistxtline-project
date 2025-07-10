@@ -1,5 +1,6 @@
 # VPC Module
 *This README was created using Claude Sonnet 4 through GitHub Copilot and revised by me.*
+
 This Terraform module creates a fully configured AWS VPC with public and private subnets across two availability zones, including NAT gateways for secure outbound internet access from private subnets.
 
 ## Architecture

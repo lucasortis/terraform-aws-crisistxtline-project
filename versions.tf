@@ -7,8 +7,7 @@ terraform {
       version = "~> 6.0"
     }
   }
-  # Uncomment the line below after creating the S3 bucket
-  #backend "s3" {}
+  backend "s3" {}
 }
 
 provider "aws" {

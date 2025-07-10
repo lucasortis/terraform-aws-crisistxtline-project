@@ -27,10 +27,11 @@ This repository contains the Terraform infrastructure code for the Crisis Text L
 The infrastructure is organized into reusable modules:
 
 - **VPC Module** (`modules/vpc/`) - Complete VPC setup with public/private subnets
-- **Security Group Module** (`modules/security-group/`) - TODO: Security group configurations
-- **ECS Module** (`modules/ecs/`) - TODO: ECS cluster and service definitions
-- **CloudWatch Module** (`modules/cloudwatch/`) - TODO: Monitoring and logging
-- **IAM Module** - TODO: IAM roles and policies
+- **Security Group Module** (`modules/security-group/`) - Network security and access control
+- **ALB Module** (`modules/alb/`) - Application Load Balancer for traffic distribution
+- **ECS Module** (`modules/ecs/`) - Containerized application hosting with Fargate
+- **IAM Module** (`modules/iam/`) - Secure access management and roles
+- **CloudWatch Module** (`modules/cloudwatch/`) - Monitoring, logging, and alerting
 
 ## Environment Management
 

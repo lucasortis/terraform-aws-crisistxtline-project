@@ -1,0 +1,5 @@
+bucket       = "lortis-xumfj8ju-dev"
+key          = "crisistextline-project/terraform.tfstate"
+region       = "us-east-1"
+profile      = "personal"
+use_lockfile = true

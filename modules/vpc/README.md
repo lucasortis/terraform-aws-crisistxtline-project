@@ -77,7 +77,10 @@ Examples:
 - Public Subnet: `pub-subnet-1a-MyProject-dev`
 - Private Subnet: `priv-subnet-1a-MyProject-dev`
 - NAT Gateway: `ngw-1a-MyProject-dev`
-- Route Table: `pub-route-table-MyProject-dev`
+- Public Route Table: `pub-route-table-MyProject-dev`
+- Private Route table AZ A: `priv-route-table-1a-MyProject-dev`
+- Private Route table AZ B: `priv-route-table-1b-MyProject-dev`
+<img width="1549" height="550" alt="image" src="https://github.com/user-attachments/assets/391a4a4d-8e15-4b37-899c-2bf4f31f180a" />
 
 ## Requirements
 
@@ -98,3 +101,6 @@ Examples:
 - All resources are conditionally created based on the `create_vpc` variable
 - Tags are merged with resource-specific tags for consistent tagging
 - DNS support and hostnames are enabled by default for the VPC
+- 
+
+# 
